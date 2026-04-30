@@ -53,8 +53,8 @@
       "cvs": 391,
       "interviews": 150,
       "selects": 13,
-      "positions": "Oracle EBS, Cloud Apps, HCM, SCM, Finance, SDET, Marketing",
-      "poc": "Faisal, Ambika"
+      "positions": "",
+      "poc": "Faisal"
     },
     {
       "id": "exl",
@@ -76,7 +76,7 @@
       "interviews": 14,
       "selects": 2,
       "positions": "Power BI, Data Eng, Frontend Dev, Lead Analyst, Cloud QA",
-      "poc": "Faisal, Ambika, Neha"
+      "poc": ""
     },
     {
       "id": "others",
@@ -94,14 +94,14 @@
     {
       "id": "cvs-submitted",
       "label": "CVs Submitted",
-      "value": 555,
+      "value": 564,
       "color": "#2952a3"
     },
     {
       "id": "interviews",
       "label": "Interviews",
       "value": 204,
-      "conversionPct": 36.8,
+      "conversionPct": 37.8,
       "color": "#1e7b56"
     },
     {
@@ -212,7 +212,7 @@
       "finalSelects": 1,
       "cvToInterviewRate": 6.1,
       "selectRate": 3,
-      "statusLabel": "Team Lead Role",
+      "statusLabel": "Team Lead",
       "statusTone": "amber"
     },
     {
@@ -223,7 +223,7 @@
       "finalSelects": 0,
       "cvToInterviewRate": 27.3,
       "selectRate": 0,
-      "statusLabel": "Mgmt + Recr",
+      "statusLabel": "Manager",
       "statusTone": "gray"
     },
     {
@@ -234,7 +234,7 @@
       "finalSelects": 0,
       "cvToInterviewRate": null,
       "selectRate": null,
-      "statusLabel": "Team Lead Role",
+      "statusLabel": "Team Lead",
       "statusTone": "gray"
     }
   ],
@@ -338,8 +338,8 @@
       "color": "#1e7b56"
     }
   ],
-  "joinedCandidateNote": "Confirmed Joined: Swathi Likhitapudi — Wipro (Ankit) · Oracle SCM Procurement",
-  "joiningPendingNote": "Joining Pending: M Venkatesulu (Harsh) · Bhanuja Batra (Harsh) · Sivaprakash S (Ankit)",
+  "joinedCandidateNote": "Confirmed Joined: Swathi Likhitapudi — Wipro · Sivaprakash S (Ankit)",
+  "joiningPendingNote": "Joining Pending: M Venkatesulu (Harsh) · Bhanuja Batra (Harsh)",
   "insights": [
     {
       "id": "harsh-conversions",
@@ -357,8 +357,8 @@
     },
     {
       "id": "avneesh-conversion",
-      "title": "Avneesh: volume vs. conversion mismatch",
-      "body": "Avneesh submitted 70 CVs (3rd highest) but only 17 made it to interviews (24.3% rate vs. team avg 36.8%). CV quality or fit alignment should be reviewed. A focused calibration call with Avneesh's client POCs is recommended.",
+      "title": "",
+      "body": "",
       "tone": "warning",
       "icon": "🔄"
     },
@@ -388,9 +388,9 @@
     {
       "id": "wipro-positions",
       "client": "Wipro",
-      "teamLead": "Faisal",
+      "teamLead": "",
       "openPositions": "46",
-      "cvsSourced": 127,
+      "cvsSourced": 130,
       "interviews": "—",
       "selects": "—",
       "priorityLabel": "High Volume",
@@ -400,7 +400,7 @@
     {
       "id": "exl-positions",
       "client": "EXL",
-      "teamLead": "Praveen",
+      "teamLead": "",
       "openPositions": "11",
       "cvsSourced": 88,
       "interviews": "—",
@@ -412,7 +412,7 @@
     {
       "id": "tm-positions",
       "client": "Tech Mahindra",
-      "teamLead": "Faisal / Ambika",
+      "teamLead": "",
       "openPositions": "7",
       "cvsSourced": 71,
       "interviews": "—",
