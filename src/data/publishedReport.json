@@ -3,81 +3,435 @@
     "brand": "Huntsmen & Barons · Internal Report",
     "reportTitle": "Monthly Recruitment",
     "reportSubtitle": "Performance Report",
-    "preparedBy": "OG",
+    "preparedBy": "Chandan",
     "reportingTo": "Praveen Mishra",
     "team": "Faisal · Ambika · 8 Recruiters",
     "periodLabel": "Reporting Period",
     "period": "April 2026",
-    "generatedDate": "29 April 2026",
+    "generatedDate": "30 April 2026",
     "preparedFor": "Praveen Mishra, Manager",
     "confidentialityLabel": "Confidential · Internal Use Only"
   },
   "kpis": [
-    { "id": "cvs-submitted", "label": "CVs Submitted", "value": "555", "subtext": "Total pipeline volume" },
-    { "id": "interviews-conducted", "label": "Interviews Conducted", "value": "204", "subtext": "All rounds combined" },
-    { "id": "final-selections", "label": "Final Selections", "value": "16", "subtext": "In offer / post-select stage" },
-    { "id": "cv-interview-rate", "label": "CV → Interview Rate", "value": "36.8%", "subtext": "Submission quality signal" },
-    { "id": "interview-select-rate", "label": "Interview → Select Rate", "value": "6.9%", "subtext": "Candidate-fit signal" }
+    {
+      "id": "cvs-submitted",
+      "label": "CVs Submitted",
+      "value": "564",
+      "subtext": "Total pipeline volume"
+    },
+    {
+      "id": "interviews-conducted",
+      "label": "Interviews Conducted",
+      "value": "204",
+      "subtext": "All rounds combined"
+    },
+    {
+      "id": "final-selections",
+      "label": "Final Selections",
+      "value": "16",
+      "subtext": "In offer / post-select stage"
+    },
+    {
+      "id": "cv-interview-rate",
+      "label": "CV → Interview Rate",
+      "value": "36.8%",
+      "subtext": "Submission quality signal"
+    },
+    {
+      "id": "interview-select-rate",
+      "label": "Interview → Select Rate",
+      "value": "6.9%",
+      "subtext": "Candidate-fit signal"
+    }
   ],
   "clients": [
-    { "id": "wipro", "name": "Wipro", "description": "Primary Client", "color": "#2952a3", "cvs": 391, "interviews": 150, "selects": 13, "positions": "Oracle EBS, Cloud Apps, HCM, SCM, Finance, SDET, Marketing", "poc": "Faisal, Ambika" },
-    { "id": "exl", "name": "EXL", "description": "Growing Client", "color": "#1e7b56", "cvs": 110, "interviews": 40, "selects": 1, "positions": "Data Eng, Analytics, AI Dev, Fraud Analytics, Workday, Looker", "poc": "Praveen" },
-    { "id": "tech-mahindra", "name": "Tech Mahindra", "description": "Active Client", "color": "#c5922b", "cvs": 46, "interviews": 14, "selects": 2, "positions": "Power BI, Data Eng, Frontend Dev, Lead Analyst, Cloud QA", "poc": "Faisal, Ambika, Neha" },
-    { "id": "others", "name": "Others", "description": "Emerging Accounts", "color": "#c8432a", "cvs": 8, "interviews": 0, "selects": 0, "positions": "Bristlecone and new client opportunities", "poc": "TBD" }
+    {
+      "id": "wipro",
+      "name": "Wipro",
+      "description": "Primary Client",
+      "color": "#2952a3",
+      "cvs": 391,
+      "interviews": 150,
+      "selects": 13,
+      "positions": "Oracle EBS, Cloud Apps, HCM, SCM, Finance, SDET, Marketing",
+      "poc": "Faisal, Ambika"
+    },
+    {
+      "id": "exl",
+      "name": "EXL",
+      "description": "Growing Client",
+      "color": "#1e7b56",
+      "cvs": 110,
+      "interviews": 40,
+      "selects": 1,
+      "positions": "Data Eng, Analytics, AI Dev, Fraud Analytics, Workday, Looker",
+      "poc": "Praveen"
+    },
+    {
+      "id": "tech-mahindra",
+      "name": "Tech Mahindra",
+      "description": "Active Client",
+      "color": "#c5922b",
+      "cvs": 46,
+      "interviews": 14,
+      "selects": 2,
+      "positions": "Power BI, Data Eng, Frontend Dev, Lead Analyst, Cloud QA",
+      "poc": "Faisal, Ambika, Neha"
+    },
+    {
+      "id": "others",
+      "name": "Others",
+      "description": "Emerging Accounts",
+      "color": "#c8432a",
+      "cvs": 8,
+      "interviews": 0,
+      "selects": 0,
+      "positions": "Bristlecone and new client opportunities",
+      "poc": "TBD"
+    }
   ],
   "funnel": [
-    { "id": "cvs-submitted", "label": "CVs Submitted", "value": 555, "color": "#2952a3" },
-    { "id": "interviews", "label": "Interviews", "value": 204, "conversionPct": 36.8, "color": "#1e7b56" },
-    { "id": "l1-selects", "label": "L1 Selects", "value": 17, "conversionPct": 8.3, "color": "#c5922b" },
-    { "id": "final-selects", "label": "Final Selects", "value": 14, "conversionPct": 2.5, "color": "#c8432a" },
-    { "id": "offers-in-progress", "label": "Offers / In Progress", "value": 16, "conversionPct": 2.9, "color": "#0f1117" }
+    {
+      "id": "cvs-submitted",
+      "label": "CVs Submitted",
+      "value": 555,
+      "color": "#2952a3"
+    },
+    {
+      "id": "interviews",
+      "label": "Interviews",
+      "value": 204,
+      "conversionPct": 36.8,
+      "color": "#1e7b56"
+    },
+    {
+      "id": "l1-selects",
+      "label": "L1 Selects",
+      "value": 17,
+      "conversionPct": 8.3,
+      "color": "#c5922b"
+    },
+    {
+      "id": "final-selects",
+      "label": "Final Selects",
+      "value": 14,
+      "conversionPct": 2.5,
+      "color": "#c8432a"
+    },
+    {
+      "id": "offers-in-progress",
+      "label": "Offers / In Progress",
+      "value": 16,
+      "conversionPct": 2.9,
+      "color": "#0f1117"
+    }
   ],
   "recruiters": [
-    { "id": "vaishnavi", "name": "Vaishnavi", "cvsSubmitted": 84, "interviews": 46, "finalSelects": 2, "cvToInterviewRate": 54.8, "selectRate": 2.4, "statusLabel": "Top Volume", "statusTone": "green" },
-    { "id": "neha", "name": "Neha", "cvsSubmitted": 75, "interviews": 29, "finalSelects": 3, "cvToInterviewRate": 38.7, "selectRate": 4, "statusLabel": "Consistent", "statusTone": "green" },
-    { "id": "harsh", "name": "Harsh", "cvsSubmitted": 69, "interviews": 26, "finalSelects": 5, "cvToInterviewRate": 37.7, "selectRate": 7.2, "statusLabel": "Most Selects", "statusTone": "blue" },
-    { "id": "avneesh", "name": "Avneesh", "cvsSubmitted": 70, "interviews": 17, "finalSelects": 1, "cvToInterviewRate": 24.3, "selectRate": 1.4, "statusLabel": "Interview Gap", "statusTone": "amber" },
-    { "id": "ankit", "name": "Ankit", "cvsSubmitted": 65, "interviews": 20, "finalSelects": 3, "cvToInterviewRate": 30.8, "selectRate": 4.6, "statusLabel": "Balanced", "statusTone": "green" },
-    { "id": "chandan", "name": "Chandan", "cvsSubmitted": 60, "interviews": 22, "finalSelects": 1, "cvToInterviewRate": 36.7, "selectRate": 1.7, "statusLabel": "Low Conversion", "statusTone": "amber" },
-    { "id": "akanksha", "name": "Akanksha", "cvsSubmitted": 54, "interviews": 35, "finalSelects": 0, "cvToInterviewRate": 64.8, "selectRate": 0, "statusLabel": "High Interviews", "statusTone": "amber" },
-    { "id": "ambika", "name": "Ambika", "cvsSubmitted": 33, "interviews": 2, "finalSelects": 1, "cvToInterviewRate": 6.1, "selectRate": 3, "statusLabel": "Team Lead Role", "statusTone": "amber" },
-    { "id": "praveen", "name": "Praveen", "cvsSubmitted": 33, "interviews": 9, "finalSelects": 0, "cvToInterviewRate": 27.3, "selectRate": 0, "statusLabel": "Mgmt + Recr", "statusTone": "gray" },
-    { "id": "faisal", "name": "Faisal", "cvsSubmitted": 8, "interviews": 0, "finalSelects": 0, "cvToInterviewRate": null, "selectRate": null, "statusLabel": "Team Lead Role", "statusTone": "gray" }
+    {
+      "id": "vaishnavi",
+      "name": "Vaishnavi",
+      "cvsSubmitted": 84,
+      "interviews": 46,
+      "finalSelects": 3,
+      "cvToInterviewRate": 54.8,
+      "selectRate": 2.4,
+      "statusLabel": "Top Volume",
+      "statusTone": "green"
+    },
+    {
+      "id": "neha",
+      "name": "Neha",
+      "cvsSubmitted": 75,
+      "interviews": 29,
+      "finalSelects": 3,
+      "cvToInterviewRate": 38.7,
+      "selectRate": 4,
+      "statusLabel": "Consistent",
+      "statusTone": "green"
+    },
+    {
+      "id": "harsh",
+      "name": "Harsh",
+      "cvsSubmitted": 69,
+      "interviews": 26,
+      "finalSelects": 5,
+      "cvToInterviewRate": 37.7,
+      "selectRate": 7.2,
+      "statusLabel": "Most Selects",
+      "statusTone": "blue"
+    },
+    {
+      "id": "avneesh",
+      "name": "Avneesh",
+      "cvsSubmitted": 70,
+      "interviews": 17,
+      "finalSelects": 1,
+      "cvToInterviewRate": 24.3,
+      "selectRate": 1.4,
+      "statusLabel": "Interview Gap",
+      "statusTone": "amber"
+    },
+    {
+      "id": "ankit",
+      "name": "Ankit",
+      "cvsSubmitted": 65,
+      "interviews": 20,
+      "finalSelects": 3,
+      "cvToInterviewRate": 30.8,
+      "selectRate": 4.6,
+      "statusLabel": "Balanced",
+      "statusTone": "green"
+    },
+    {
+      "id": "chandan",
+      "name": "Chandan",
+      "cvsSubmitted": 60,
+      "interviews": 22,
+      "finalSelects": 1,
+      "cvToInterviewRate": 36.7,
+      "selectRate": 1.7,
+      "statusLabel": "Low Conversion",
+      "statusTone": "amber"
+    },
+    {
+      "id": "akanksha",
+      "name": "Akanksha",
+      "cvsSubmitted": 54,
+      "interviews": 35,
+      "finalSelects": 0,
+      "cvToInterviewRate": 64.8,
+      "selectRate": 0,
+      "statusLabel": "High Interviews",
+      "statusTone": "amber"
+    },
+    {
+      "id": "ambika",
+      "name": "Ambika",
+      "cvsSubmitted": 33,
+      "interviews": 2,
+      "finalSelects": 1,
+      "cvToInterviewRate": 6.1,
+      "selectRate": 3,
+      "statusLabel": "Team Lead Role",
+      "statusTone": "amber"
+    },
+    {
+      "id": "praveen",
+      "name": "Praveen",
+      "cvsSubmitted": 33,
+      "interviews": 9,
+      "finalSelects": 0,
+      "cvToInterviewRate": 27.3,
+      "selectRate": 0,
+      "statusLabel": "Mgmt + Recr",
+      "statusTone": "gray"
+    },
+    {
+      "id": "faisal",
+      "name": "Faisal",
+      "cvsSubmitted": 8,
+      "interviews": 0,
+      "finalSelects": 0,
+      "cvToInterviewRate": null,
+      "selectRate": null,
+      "statusLabel": "Team Lead Role",
+      "statusTone": "gray"
+    }
   ],
   "pipeline": [
-    { "id": "l1-done", "label": "L1 Done", "value": 47, "color": "#2952a3" },
-    { "id": "l1-reject", "label": "L1 Reject", "value": 35, "color": "#c8432a" },
-    { "id": "l1-scheduled", "label": "L1 Scheduled", "value": 31, "color": "#c5922b" },
-    { "id": "l1-select", "label": "L1 Select", "value": 17, "color": "#1e7b56" },
-    { "id": "final-select", "label": "Final Select", "value": 14, "color": "#0f1117" },
-    { "id": "no-show", "label": "No Show", "value": 12, "color": "#f0a080" },
-    { "id": "cancelled", "label": "Cancelled", "value": 12, "color": "#ddd9d0" },
-    { "id": "l2-reject", "label": "L2 Reject", "value": 10, "color": "#d46e56" },
-    { "id": "l2-done", "label": "L2 Done", "value": 7, "color": "#6882bc" }
+    {
+      "id": "l1-done",
+      "label": "L1 Done",
+      "value": 47,
+      "color": "#2952a3"
+    },
+    {
+      "id": "l1-reject",
+      "label": "L1 Reject",
+      "value": 35,
+      "color": "#c8432a"
+    },
+    {
+      "id": "l1-scheduled",
+      "label": "L1 Scheduled",
+      "value": 31,
+      "color": "#c5922b"
+    },
+    {
+      "id": "l1-select",
+      "label": "L1 Select",
+      "value": 17,
+      "color": "#1e7b56"
+    },
+    {
+      "id": "final-select",
+      "label": "Final Select",
+      "value": 14,
+      "color": "#0f1117"
+    },
+    {
+      "id": "no-show",
+      "label": "No Show",
+      "value": 12,
+      "color": "#f0a080"
+    },
+    {
+      "id": "cancelled",
+      "label": "Cancelled",
+      "value": 12,
+      "color": "#ddd9d0"
+    },
+    {
+      "id": "l2-reject",
+      "label": "L2 Reject",
+      "value": 10,
+      "color": "#d46e56"
+    },
+    {
+      "id": "l2-done",
+      "label": "L2 Done",
+      "value": 7,
+      "color": "#6882bc"
+    }
   ],
   "finalSelections": [
-    { "id": "document-shared", "label": "Document Shared", "value": 5, "color": "#2952a3" },
-    { "id": "joining-pending", "label": "Joining Pending", "value": 3, "color": "#c5922b" },
-    { "id": "drop", "label": "Drop", "value": 3, "color": "#c8432a" },
-    { "id": "ctc-discussion", "label": "CTC Discussion", "value": 2, "color": "#d7a94e" },
-    { "id": "client-reject", "label": "Client Reject", "value": 1, "color": "#ca6b55" },
-    { "id": "bgv-reject", "label": "BGV Reject", "value": 1, "color": "#b7554a" },
-    { "id": "joined", "label": "Joined", "value": 1, "color": "#1e7b56" }
+    {
+      "id": "document-shared",
+      "label": "Document Shared",
+      "value": 5,
+      "color": "#2952a3"
+    },
+    {
+      "id": "joining-pending",
+      "label": "Joining Pending",
+      "value": 3,
+      "color": "#c5922b"
+    },
+    {
+      "id": "drop",
+      "label": "Drop",
+      "value": 3,
+      "color": "#c8432a"
+    },
+    {
+      "id": "ctc-discussion",
+      "label": "CTC Discussion",
+      "value": 2,
+      "color": "#d7a94e"
+    },
+    {
+      "id": "client-reject",
+      "label": "Client Reject",
+      "value": 1,
+      "color": "#ca6b55"
+    },
+    {
+      "id": "bgv-reject",
+      "label": "BGV Reject",
+      "value": 1,
+      "color": "#b7554a"
+    },
+    {
+      "id": "joined",
+      "label": "Joined",
+      "value": 1,
+      "color": "#1e7b56"
+    }
   ],
   "joinedCandidateNote": "Confirmed Joined: Swathi Likhitapudi — Wipro (Ankit) · Oracle SCM Procurement",
   "joiningPendingNote": "Joining Pending: M Venkatesulu (Harsh) · Bhanuja Batra (Harsh) · Sivaprakash S (Ankit)",
   "insights": [
-    { "id": "harsh-conversions", "title": "Harsh leads final conversions", "body": "Harsh secured 5 out of 16 total final selections this month — the highest on the team — despite submitting 69 CVs. His interview-to-select ratio of 7.2% is significantly above team average. His Oracle technical domain expertise is driving outcomes.", "tone": "positive", "icon": "📈" },
-    { "id": "no-show-rate", "title": "High no-show rate needs attention", "body": "12 candidates were \"No Show\" at interviews — 5.9% of all interview slots wasted. This is avoidable pipeline leakage. Suggest implementing confirmation calls 24 hours before every scheduled interview and tracking no-show rates by recruiter going forward.", "tone": "warning", "icon": "⚠️" },
-    { "id": "avneesh-conversion", "title": "Avneesh: volume vs. conversion mismatch", "body": "Avneesh submitted 70 CVs (3rd highest) but only 17 made it to interviews (24.3% rate vs. team avg 36.8%). CV quality or fit alignment should be reviewed. A focused calibration call with Avneesh's client POCs is recommended.", "tone": "warning", "icon": "🔄" },
-    { "id": "exl-closure", "title": "EXL pipeline shows strong volume, weak closure", "body": "110 CVs submitted for EXL (19.8% of total volume) but only 1 final select so far. The EXL pipeline has many candidates in \"Feedback Pending\" status. Praveen should chase POCs Swathi Shetty, Manisha Chanana, Harish Yadav and Jaspreet for pending feedback urgently.", "tone": "info", "icon": "🎯" },
-    { "id": "team-volume", "title": "Team volume at solid month-1 levels", "body": "555 CVs in April represents a strong start to the 2026-27 cycle. Wipro remains the primary revenue driver at 70.5% of submissions. With 11 active positions for EXL and 7 for Tech Mahindra, Q2 has significant upside if existing pipelines convert.", "tone": "positive", "icon": "🏆" },
-    { "id": "next-month", "title": "Open notes for next month", "body": "[ Add any specific targets, open positions, or focus areas for May 2026 here. ]", "tone": "info", "icon": "📝" }
+    {
+      "id": "harsh-conversions",
+      "title": "Harsh leads final conversions",
+      "body": "Harsh secured 5 out of 16 total final selections this month — the highest on the team — despite submitting 69 CVs. His interview-to-select ratio of 7.2% is significantly above team average. His Oracle technical domain expertise is driving outcomes.",
+      "tone": "positive",
+      "icon": "📈"
+    },
+    {
+      "id": "no-show-rate",
+      "title": "High no-show rate needs attention",
+      "body": "12 candidates were \"No Show\" at interviews — 5.9% of all interview slots wasted. This is avoidable pipeline leakage. Suggest implementing confirmation calls 24 hours before every scheduled interview and tracking no-show rates by recruiter going forward.",
+      "tone": "warning",
+      "icon": "⚠️"
+    },
+    {
+      "id": "avneesh-conversion",
+      "title": "Avneesh: volume vs. conversion mismatch",
+      "body": "Avneesh submitted 70 CVs (3rd highest) but only 17 made it to interviews (24.3% rate vs. team avg 36.8%). CV quality or fit alignment should be reviewed. A focused calibration call with Avneesh's client POCs is recommended.",
+      "tone": "warning",
+      "icon": "🔄"
+    },
+    {
+      "id": "exl-closure",
+      "title": "EXL pipeline shows strong volume, weak closure",
+      "body": "110 CVs submitted for EXL (19.8% of total volume) but only 1 final select so far. The EXL pipeline has many candidates in \"Feedback Pending\" status. Praveen should chase POCs Swathi Shetty, Manisha Chanana, Harish Yadav and Jaspreet for pending feedback urgently.",
+      "tone": "info",
+      "icon": "🎯"
+    },
+    {
+      "id": "team-volume",
+      "title": "Team volume at solid month-1 levels",
+      "body": "555 CVs in April represents a strong start to the 2026-27 cycle. Wipro remains the primary revenue driver at 70.5% of submissions. With 11 active positions for EXL and 7 for Tech Mahindra, Q2 has significant upside if existing pipelines convert.",
+      "tone": "positive",
+      "icon": "🏆"
+    },
+    {
+      "id": "next-month",
+      "title": "Open notes for next month",
+      "body": "[ Add any specific targets, open positions, or focus areas for May 2026 here. ]",
+      "tone": "info",
+      "icon": "📝"
+    }
   ],
   "positions": [
-    { "id": "wipro-positions", "client": "Wipro", "teamLead": "Faisal", "openPositions": "46", "cvsSourced": 127, "interviews": "—", "selects": "—", "priorityLabel": "High Volume", "priorityTone": "blue", "color": "#2952a3" },
-    { "id": "exl-positions", "client": "EXL", "teamLead": "Praveen", "openPositions": "11", "cvsSourced": 88, "interviews": "—", "selects": "—", "priorityLabel": "Feedback Pending", "priorityTone": "amber", "color": "#1e7b56" },
-    { "id": "tm-positions", "client": "Tech Mahindra", "teamLead": "Faisal / Ambika", "openPositions": "7", "cvsSourced": 71, "interviews": "—", "selects": "—", "priorityLabel": "Active", "priorityTone": "green", "color": "#c5922b" },
-    { "id": "bristlecone-positions", "client": "Bristlecone", "teamLead": "—", "openPositions": "—", "cvsSourced": 4, "interviews": "—", "selects": "—", "priorityLabel": "New Client", "priorityTone": "gray", "color": "#8b4fb8" }
+    {
+      "id": "wipro-positions",
+      "client": "Wipro",
+      "teamLead": "Faisal",
+      "openPositions": "46",
+      "cvsSourced": 127,
+      "interviews": "—",
+      "selects": "—",
+      "priorityLabel": "High Volume",
+      "priorityTone": "blue",
+      "color": "#2952a3"
+    },
+    {
+      "id": "exl-positions",
+      "client": "EXL",
+      "teamLead": "Praveen",
+      "openPositions": "11",
+      "cvsSourced": 88,
+      "interviews": "—",
+      "selects": "—",
+      "priorityLabel": "Feedback Pending",
+      "priorityTone": "amber",
+      "color": "#1e7b56"
+    },
+    {
+      "id": "tm-positions",
+      "client": "Tech Mahindra",
+      "teamLead": "Faisal / Ambika",
+      "openPositions": "7",
+      "cvsSourced": 71,
+      "interviews": "—",
+      "selects": "—",
+      "priorityLabel": "Active",
+      "priorityTone": "green",
+      "color": "#c5922b"
+    },
+    {
+      "id": "bristlecone-positions",
+      "client": "Bristlecone",
+      "teamLead": "—",
+      "openPositions": "—",
+      "cvsSourced": 4,
+      "interviews": "—",
+      "selects": "—",
+      "priorityLabel": "New Client",
+      "priorityTone": "gray",
+      "color": "#8b4fb8"
+    }
   ]
 }
